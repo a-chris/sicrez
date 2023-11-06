@@ -1,0 +1,4 @@
+settings_secret_text: "Sicrez is awesome"
+settings:
+  very_nested:
+    secret_text: "Sicrez is awesome"

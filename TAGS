@@ -1,0 +1,16 @@
+
+spec/sicrez_spec.rb,63
+class RailsRails11,0
+  def self.applicationapplication12,0
+
+lib/sicrez.rb,217
+module SicrezSicrez7,0
+  def self.method_missing(name, *args)method_missing8,0
+  def self.configsconfigs17,0
+  def self.fetch(name, fallback = nil)fetch25,0
+  def self.rails_credentialsrails_credentials31,0
+
+lib/sicrez/version.rb,97
+module SicrezSicrez3,0
+  VERSION = "0.1.0"VERSION4,0
+  VERSION = "0.1.0"Sicrez::VERSION4,0
