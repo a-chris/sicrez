@@ -38,6 +38,12 @@ Here it comes **Sicrez**.
 Install this gem from github, I'm not distributing a release yet because it's a work in progress and it may receive several updates and fixes.
 Give it a chance, I'm already running it for two of my projects in production.
 
+Add to your Gemfile:
+
+```
+  gem "sicrez", github: "a-chris/sicrez", branch: "main"
+```
+
 No settings, configurations or initializers at the moment. Just install it and start using `Sicrez` to access your credentials.
 
 ## Features I'd like to add
@@ -61,7 +67,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/sicrez. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/sicrez/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/a-chris/sicrez. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/a-chris/sicrez/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
 
@@ -69,4 +75,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the Sicrez project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/sicrez/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the Sicrez project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/a-chris/sicrez/blob/master/CODE_OF_CONDUCT.md).
