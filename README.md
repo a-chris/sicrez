@@ -1,7 +1,7 @@
 # 🤫 Sicrez
 
 Sicrez is the single entry point of access for your Rails Credentials, Settings (from the Config gem) and ENV variables.
-It's just a small wrapper class so that you can store app secrets/settings wherever you prefer without the headache to figure out where they come from.
+It's just a small wrapper class so that you can store app secrets and settings wherever you prefer without the headache to figure out where they come from.
 
 ## Usage
 
@@ -22,9 +22,9 @@ It's just a small wrapper class so that you can store app secrets/settings where
 ## Just why?
 
 In my projects I have the habit to store the secrets/variables in different place:
-- Rails Credentials for secrets/password/api keys that is better to keep in a safe place
-- Settings files for everything else: urls, name, configurations, feature flags
-- ENV variables for stuff that should take the precedence over everything else or that are set up by the system
+- Rails Credentials for secrets/password/api keys that is better to keep encrypted
+- Settings files for everything else: urls, name, configurations, texts, feature flags
+- ENV variables for stuff that should take the precedence or that are set up by the Operating System
 
 This happened because I feel like the Rails Credentials are a bit hard to mantain and they could be overkill if you just put everything there: you get a big blob of encrypted text that you have to decrypt to change just a small string, for each one of your environments!
 
@@ -55,9 +55,7 @@ I plan to had some neat feature in the future, like:
 
 ## Known issues
 
-Initialization is something I'm working on. It works without problems with `rails server` and `rails console` but is a pain while using capistrano do deploy your server, for example if you have some configurations accessed through Sicrez.
-
-I'm still looking for the right place to require/load the gem in these cases.
+Initialization is something I'm working on. It works without problems with `rails server` and `rails console` but it may not work while using Capistrano to deploy your project, for example if it has to access configurations through Sicrez. I'm still looking for the right place to require/load the gem in these cases.
 
 ## Development
 
